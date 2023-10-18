@@ -167,6 +167,7 @@ function ObjectValue(props:{value:any,setValue:any}){
 }
 
 function GameObjectValue(props:{value:any,setValue:any}){
+    console.log(props)
     const [name, setName] = useState("...")
     function handleDragOver(event: React.DragEvent): void {
         event.preventDefault();
