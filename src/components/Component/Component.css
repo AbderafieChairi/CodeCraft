@@ -1,0 +1,83 @@
+.component-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.componentUI-header{
+    border-top: solid 1px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    background-color: rgb(50, 97, 108);
+    opacity: 0.5px;
+}
+.componentUI{
+    /* padding: 10px 5px; */
+    border-bottom: solid 1px gray;
+    margin-bottom: 5px;
+}
+
+.component-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 5px;
+    column-gap: 7px;
+}
+.component-line  input{
+    background-color: white;
+    opacity: 0.5;
+    padding: 3px 3px;
+    outline: transparent;
+    border: none;
+    color: black;
+    border-radius: 3px;
+    
+}
+.component-sub-line {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2px;
+}
+.component-sub-line-inp{
+    flex: 1;
+    /* display: flex; */
+    color: black;
+    display: flex;
+}
+.component-sub-line-inp input{
+    width: 100%;
+}
+/* .component-line-key{
+    min-width: 50px;
+} */
+.component-line-value{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    column-gap: 5px;
+}
+
+.componentUI-body{
+    padding:5px 2px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.componentUI-body-target{
+    flex: 1;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    padding: 3px;
+    border-radius: 3px;
+}

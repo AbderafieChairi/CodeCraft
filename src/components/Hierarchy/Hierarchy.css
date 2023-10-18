@@ -1,0 +1,8 @@
+.hierarchy-item{
+    padding: 4px 7px;
+    cursor: pointer;
+}
+
+.hierarchy-item :hover{
+    background-color: #757b86;
+}
